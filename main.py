@@ -1,0 +1,12 @@
+import funcionalidades.init
+import funcionalidades.administracion
+import funcionalidades.funcionalidades_beta
+import funcionalidades.sugerencias
+import funcionalidades.consultas_consejo
+import funcionalidades.herramientas_enlaces
+import funcionalidades.gestor_documentos
+import funcionalidades.asincronas.recordatorios
+import funcionalidades.gestion_nevera
+from bot.JBot import bot
+
+bot.infinity_polling()
